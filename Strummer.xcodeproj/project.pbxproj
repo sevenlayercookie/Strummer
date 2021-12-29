@@ -1,0 +1,1164 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22E0441E277CDCA200E5A04F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E0441D277CDCA200E5A04F /* AppDelegate.swift */; };
+		22E04420277CDCA200E5A04F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E0441F277CDCA200E5A04F /* SceneDelegate.swift */; };
+		22E04422277CDCA200E5A04F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E04421277CDCA200E5A04F /* ViewController.swift */; };
+		22E04425277CDCA200E5A04F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E04423277CDCA200E5A04F /* Main.storyboard */; };
+		22E04427277CDCA500E5A04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E04426277CDCA500E5A04F /* Assets.xcassets */; };
+		22E0442A277CDCA500E5A04F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E04428277CDCA500E5A04F /* LaunchScreen.storyboard */; };
+		22E04435277CDCA500E5A04F /* StrummerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E04434277CDCA500E5A04F /* StrummerTests.swift */; };
+		22E0443F277CDCA500E5A04F /* StrummerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E0443E277CDCA500E5A04F /* StrummerUITests.swift */; };
+		22E04441277CDCA500E5A04F /* StrummerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E04440277CDCA500E5A04F /* StrummerUITestsLaunchTests.swift */; };
+		22E04445277CDCA500E5A04F /* Strummer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 22E04444277CDCA500E5A04F /* Strummer WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		22E0444B277CDCA500E5A04F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E04449277CDCA500E5A04F /* Interface.storyboard */; };
+		22E0444D277CDCA700E5A04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E0444C277CDCA700E5A04F /* Assets.xcassets */; };
+		22E04453277CDCA700E5A04F /* Strummer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 22E04452277CDCA700E5A04F /* Strummer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		22E04458277CDCA700E5A04F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E04457277CDCA700E5A04F /* InterfaceController.swift */; };
+		22E0445A277CDCA700E5A04F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E04459277CDCA700E5A04F /* ExtensionDelegate.swift */; };
+		22E0445C277CDCA700E5A04F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E0445B277CDCA700E5A04F /* NotificationController.swift */; };
+		22E0445E277CDCA700E5A04F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E0445D277CDCA700E5A04F /* ComplicationController.swift */; };
+		22E04460277CDCA800E5A04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E0445F277CDCA800E5A04F /* Assets.xcassets */; };
+		22E0446C277CDCA800E5A04F /* Strummer_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E0446B277CDCA800E5A04F /* Strummer_WatchKit_AppTests.swift */; };
+		22E04476277CDCA900E5A04F /* Strummer_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E04475277CDCA900E5A04F /* Strummer_WatchKit_AppUITests.swift */; };
+		22E04478277CDCA900E5A04F /* Strummer_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E04477277CDCA900E5A04F /* Strummer_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22E04431277CDCA500E5A04F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E04412277CDCA200E5A04F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E04419277CDCA200E5A04F;
+			remoteInfo = Strummer;
+		};
+		22E0443B277CDCA500E5A04F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E04412277CDCA200E5A04F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E04419277CDCA200E5A04F;
+			remoteInfo = Strummer;
+		};
+		22E04446277CDCA500E5A04F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E04412277CDCA200E5A04F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E04443277CDCA500E5A04F;
+			remoteInfo = "Strummer WatchKit App";
+		};
+		22E04454277CDCA700E5A04F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E04412277CDCA200E5A04F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E04451277CDCA700E5A04F;
+			remoteInfo = "Strummer WatchKit Extension";
+		};
+		22E04468277CDCA800E5A04F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E04412277CDCA200E5A04F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E04451277CDCA700E5A04F;
+			remoteInfo = "Strummer WatchKit Extension";
+		};
+		22E04472277CDCA900E5A04F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E04412277CDCA200E5A04F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E04443277CDCA500E5A04F;
+			remoteInfo = "Strummer WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22E0447E277CDCA900E5A04F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				22E04453277CDCA700E5A04F /* Strummer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E04482277CDCA900E5A04F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				22E04445277CDCA500E5A04F /* Strummer WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		22E0441A277CDCA200E5A04F /* Strummer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strummer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E0441D277CDCA200E5A04F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22E0441F277CDCA200E5A04F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22E04421277CDCA200E5A04F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22E04424277CDCA200E5A04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22E04426277CDCA500E5A04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22E04429277CDCA500E5A04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22E0442B277CDCA500E5A04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E04430277CDCA500E5A04F /* StrummerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrummerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E04434277CDCA500E5A04F /* StrummerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrummerTests.swift; sourceTree = "<group>"; };
+		22E0443A277CDCA500E5A04F /* StrummerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrummerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E0443E277CDCA500E5A04F /* StrummerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrummerUITests.swift; sourceTree = "<group>"; };
+		22E04440277CDCA500E5A04F /* StrummerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrummerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22E04444277CDCA500E5A04F /* Strummer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Strummer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E0444A277CDCA500E5A04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		22E0444C277CDCA700E5A04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22E04452277CDCA700E5A04F /* Strummer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Strummer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E04457277CDCA700E5A04F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		22E04459277CDCA700E5A04F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		22E0445B277CDCA700E5A04F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		22E0445D277CDCA700E5A04F /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		22E0445F277CDCA800E5A04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22E04461277CDCA800E5A04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E04462277CDCA800E5A04F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		22E04467277CDCA800E5A04F /* Strummer WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Strummer WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E0446B277CDCA800E5A04F /* Strummer_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strummer_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		22E04471277CDCA900E5A04F /* Strummer WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Strummer WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E04475277CDCA900E5A04F /* Strummer_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strummer_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		22E04477277CDCA900E5A04F /* Strummer_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strummer_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22E04417277CDCA200E5A04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E0442D277CDCA500E5A04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E04437277CDCA500E5A04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E0444F277CDCA700E5A04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E04464277CDCA800E5A04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E0446E277CDCA900E5A04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22E04411277CDCA200E5A04F = {
+			isa = PBXGroup;
+			children = (
+				22E0441C277CDCA200E5A04F /* Strummer */,
+				22E04433277CDCA500E5A04F /* StrummerTests */,
+				22E0443D277CDCA500E5A04F /* StrummerUITests */,
+				22E04448277CDCA500E5A04F /* Strummer WatchKit App */,
+				22E04456277CDCA700E5A04F /* Strummer WatchKit Extension */,
+				22E0446A277CDCA800E5A04F /* Strummer WatchKit AppTests */,
+				22E04474277CDCA900E5A04F /* Strummer WatchKit AppUITests */,
+				22E0441B277CDCA200E5A04F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22E0441B277CDCA200E5A04F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22E0441A277CDCA200E5A04F /* Strummer.app */,
+				22E04430277CDCA500E5A04F /* StrummerTests.xctest */,
+				22E0443A277CDCA500E5A04F /* StrummerUITests.xctest */,
+				22E04444277CDCA500E5A04F /* Strummer WatchKit App.app */,
+				22E04452277CDCA700E5A04F /* Strummer WatchKit Extension.appex */,
+				22E04467277CDCA800E5A04F /* Strummer WatchKit AppTests.xctest */,
+				22E04471277CDCA900E5A04F /* Strummer WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22E0441C277CDCA200E5A04F /* Strummer */ = {
+			isa = PBXGroup;
+			children = (
+				22E0441D277CDCA200E5A04F /* AppDelegate.swift */,
+				22E0441F277CDCA200E5A04F /* SceneDelegate.swift */,
+				22E04421277CDCA200E5A04F /* ViewController.swift */,
+				22E04423277CDCA200E5A04F /* Main.storyboard */,
+				22E04426277CDCA500E5A04F /* Assets.xcassets */,
+				22E04428277CDCA500E5A04F /* LaunchScreen.storyboard */,
+				22E0442B277CDCA500E5A04F /* Info.plist */,
+			);
+			path = Strummer;
+			sourceTree = "<group>";
+		};
+		22E04433277CDCA500E5A04F /* StrummerTests */ = {
+			isa = PBXGroup;
+			children = (
+				22E04434277CDCA500E5A04F /* StrummerTests.swift */,
+			);
+			path = StrummerTests;
+			sourceTree = "<group>";
+		};
+		22E0443D277CDCA500E5A04F /* StrummerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22E0443E277CDCA500E5A04F /* StrummerUITests.swift */,
+				22E04440277CDCA500E5A04F /* StrummerUITestsLaunchTests.swift */,
+			);
+			path = StrummerUITests;
+			sourceTree = "<group>";
+		};
+		22E04448277CDCA500E5A04F /* Strummer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				22E04449277CDCA500E5A04F /* Interface.storyboard */,
+				22E0444C277CDCA700E5A04F /* Assets.xcassets */,
+			);
+			path = "Strummer WatchKit App";
+			sourceTree = "<group>";
+		};
+		22E04456277CDCA700E5A04F /* Strummer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				22E04457277CDCA700E5A04F /* InterfaceController.swift */,
+				22E04459277CDCA700E5A04F /* ExtensionDelegate.swift */,
+				22E0445B277CDCA700E5A04F /* NotificationController.swift */,
+				22E0445D277CDCA700E5A04F /* ComplicationController.swift */,
+				22E0445F277CDCA800E5A04F /* Assets.xcassets */,
+				22E04461277CDCA800E5A04F /* Info.plist */,
+				22E04462277CDCA800E5A04F /* PushNotificationPayload.apns */,
+			);
+			path = "Strummer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		22E0446A277CDCA800E5A04F /* Strummer WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				22E0446B277CDCA800E5A04F /* Strummer_WatchKit_AppTests.swift */,
+			);
+			path = "Strummer WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		22E04474277CDCA900E5A04F /* Strummer WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22E04475277CDCA900E5A04F /* Strummer_WatchKit_AppUITests.swift */,
+				22E04477277CDCA900E5A04F /* Strummer_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "Strummer WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22E04419277CDCA200E5A04F /* Strummer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E04483277CDCA900E5A04F /* Build configuration list for PBXNativeTarget "Strummer" */;
+			buildPhases = (
+				22E04416277CDCA200E5A04F /* Sources */,
+				22E04417277CDCA200E5A04F /* Frameworks */,
+				22E04418277CDCA200E5A04F /* Resources */,
+				22E04482277CDCA900E5A04F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22E04447277CDCA500E5A04F /* PBXTargetDependency */,
+			);
+			name = Strummer;
+			productName = Strummer;
+			productReference = 22E0441A277CDCA200E5A04F /* Strummer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22E0442F277CDCA500E5A04F /* StrummerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E04486277CDCA900E5A04F /* Build configuration list for PBXNativeTarget "StrummerTests" */;
+			buildPhases = (
+				22E0442C277CDCA500E5A04F /* Sources */,
+				22E0442D277CDCA500E5A04F /* Frameworks */,
+				22E0442E277CDCA500E5A04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22E04432277CDCA500E5A04F /* PBXTargetDependency */,
+			);
+			name = StrummerTests;
+			productName = StrummerTests;
+			productReference = 22E04430277CDCA500E5A04F /* StrummerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22E04439277CDCA500E5A04F /* StrummerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E04489277CDCA900E5A04F /* Build configuration list for PBXNativeTarget "StrummerUITests" */;
+			buildPhases = (
+				22E04436277CDCA500E5A04F /* Sources */,
+				22E04437277CDCA500E5A04F /* Frameworks */,
+				22E04438277CDCA500E5A04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22E0443C277CDCA500E5A04F /* PBXTargetDependency */,
+			);
+			name = StrummerUITests;
+			productName = StrummerUITests;
+			productReference = 22E0443A277CDCA500E5A04F /* StrummerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		22E04443277CDCA500E5A04F /* Strummer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E0447F277CDCA900E5A04F /* Build configuration list for PBXNativeTarget "Strummer WatchKit App" */;
+			buildPhases = (
+				22E04442277CDCA500E5A04F /* Resources */,
+				22E0447E277CDCA900E5A04F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22E04455277CDCA700E5A04F /* PBXTargetDependency */,
+			);
+			name = "Strummer WatchKit App";
+			productName = "Strummer WatchKit App";
+			productReference = 22E04444277CDCA500E5A04F /* Strummer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		22E04451277CDCA700E5A04F /* Strummer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E0447B277CDCA900E5A04F /* Build configuration list for PBXNativeTarget "Strummer WatchKit Extension" */;
+			buildPhases = (
+				22E0444E277CDCA700E5A04F /* Sources */,
+				22E0444F277CDCA700E5A04F /* Frameworks */,
+				22E04450277CDCA700E5A04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Strummer WatchKit Extension";
+			productName = "Strummer WatchKit Extension";
+			productReference = 22E04452277CDCA700E5A04F /* Strummer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		22E04466277CDCA800E5A04F /* Strummer WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E0448C277CDCA900E5A04F /* Build configuration list for PBXNativeTarget "Strummer WatchKit AppTests" */;
+			buildPhases = (
+				22E04463277CDCA800E5A04F /* Sources */,
+				22E04464277CDCA800E5A04F /* Frameworks */,
+				22E04465277CDCA800E5A04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22E04469277CDCA800E5A04F /* PBXTargetDependency */,
+			);
+			name = "Strummer WatchKit AppTests";
+			productName = "Strummer WatchKit AppTests";
+			productReference = 22E04467277CDCA800E5A04F /* Strummer WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22E04470277CDCA900E5A04F /* Strummer WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E0448F277CDCA900E5A04F /* Build configuration list for PBXNativeTarget "Strummer WatchKit AppUITests" */;
+			buildPhases = (
+				22E0446D277CDCA900E5A04F /* Sources */,
+				22E0446E277CDCA900E5A04F /* Frameworks */,
+				22E0446F277CDCA900E5A04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22E04473277CDCA900E5A04F /* PBXTargetDependency */,
+			);
+			name = "Strummer WatchKit AppUITests";
+			productName = "Strummer WatchKit AppUITests";
+			productReference = 22E04471277CDCA900E5A04F /* Strummer WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22E04412277CDCA200E5A04F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					22E04419277CDCA200E5A04F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					22E0442F277CDCA500E5A04F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 22E04419277CDCA200E5A04F;
+					};
+					22E04439277CDCA500E5A04F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 22E04419277CDCA200E5A04F;
+					};
+					22E04443277CDCA500E5A04F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					22E04451277CDCA700E5A04F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					22E04466277CDCA800E5A04F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 22E04451277CDCA700E5A04F;
+					};
+					22E04470277CDCA900E5A04F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 22E04443277CDCA500E5A04F;
+					};
+				};
+			};
+			buildConfigurationList = 22E04415277CDCA200E5A04F /* Build configuration list for PBXProject "Strummer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22E04411277CDCA200E5A04F;
+			productRefGroup = 22E0441B277CDCA200E5A04F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22E04419277CDCA200E5A04F /* Strummer */,
+				22E0442F277CDCA500E5A04F /* StrummerTests */,
+				22E04439277CDCA500E5A04F /* StrummerUITests */,
+				22E04443277CDCA500E5A04F /* Strummer WatchKit App */,
+				22E04451277CDCA700E5A04F /* Strummer WatchKit Extension */,
+				22E04466277CDCA800E5A04F /* Strummer WatchKit AppTests */,
+				22E04470277CDCA900E5A04F /* Strummer WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22E04418277CDCA200E5A04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E0442A277CDCA500E5A04F /* LaunchScreen.storyboard in Resources */,
+				22E04427277CDCA500E5A04F /* Assets.xcassets in Resources */,
+				22E04425277CDCA200E5A04F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E0442E277CDCA500E5A04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E04438277CDCA500E5A04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E04442277CDCA500E5A04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E0444D277CDCA700E5A04F /* Assets.xcassets in Resources */,
+				22E0444B277CDCA500E5A04F /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E04450277CDCA700E5A04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E04460277CDCA800E5A04F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E04465277CDCA800E5A04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E0446F277CDCA900E5A04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22E04416277CDCA200E5A04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E04422277CDCA200E5A04F /* ViewController.swift in Sources */,
+				22E0441E277CDCA200E5A04F /* AppDelegate.swift in Sources */,
+				22E04420277CDCA200E5A04F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E0442C277CDCA500E5A04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E04435277CDCA500E5A04F /* StrummerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E04436277CDCA500E5A04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E04441277CDCA500E5A04F /* StrummerUITestsLaunchTests.swift in Sources */,
+				22E0443F277CDCA500E5A04F /* StrummerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E0444E277CDCA700E5A04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E0445C277CDCA700E5A04F /* NotificationController.swift in Sources */,
+				22E0445E277CDCA700E5A04F /* ComplicationController.swift in Sources */,
+				22E0445A277CDCA700E5A04F /* ExtensionDelegate.swift in Sources */,
+				22E04458277CDCA700E5A04F /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E04463277CDCA800E5A04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E0446C277CDCA800E5A04F /* Strummer_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E0446D277CDCA900E5A04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E04478277CDCA900E5A04F /* Strummer_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+				22E04476277CDCA900E5A04F /* Strummer_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22E04432277CDCA500E5A04F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22E04419277CDCA200E5A04F /* Strummer */;
+			targetProxy = 22E04431277CDCA500E5A04F /* PBXContainerItemProxy */;
+		};
+		22E0443C277CDCA500E5A04F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22E04419277CDCA200E5A04F /* Strummer */;
+			targetProxy = 22E0443B277CDCA500E5A04F /* PBXContainerItemProxy */;
+		};
+		22E04447277CDCA500E5A04F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22E04443277CDCA500E5A04F /* Strummer WatchKit App */;
+			targetProxy = 22E04446277CDCA500E5A04F /* PBXContainerItemProxy */;
+		};
+		22E04455277CDCA700E5A04F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22E04451277CDCA700E5A04F /* Strummer WatchKit Extension */;
+			targetProxy = 22E04454277CDCA700E5A04F /* PBXContainerItemProxy */;
+		};
+		22E04469277CDCA800E5A04F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22E04451277CDCA700E5A04F /* Strummer WatchKit Extension */;
+			targetProxy = 22E04468277CDCA800E5A04F /* PBXContainerItemProxy */;
+		};
+		22E04473277CDCA900E5A04F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22E04443277CDCA500E5A04F /* Strummer WatchKit App */;
+			targetProxy = 22E04472277CDCA900E5A04F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22E04423277CDCA200E5A04F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E04424277CDCA200E5A04F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22E04428277CDCA500E5A04F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E04429277CDCA500E5A04F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		22E04449277CDCA500E5A04F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E0444A277CDCA500E5A04F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22E04479277CDCA900E5A04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22E0447A277CDCA900E5A04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		22E0447C277CDCA900E5A04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Strummer WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Strummer WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Harrison.Strummer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		22E0447D277CDCA900E5A04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Strummer WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Strummer WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Harrison.Strummer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		22E04480277CDCA900E5A04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Strummer_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Strummer WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = Harrison.Strummer;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Harrison.Strummer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		22E04481277CDCA900E5A04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Strummer_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Strummer WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = Harrison.Strummer;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Harrison.Strummer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		22E04484277CDCA900E5A04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Strummer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Harrison.Strummer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22E04485277CDCA900E5A04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Strummer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Harrison.Strummer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22E04487277CDCA900E5A04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Harrison.StrummerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Strummer.app/Strummer";
+			};
+			name = Debug;
+		};
+		22E04488277CDCA900E5A04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Harrison.StrummerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Strummer.app/Strummer";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22E0448A277CDCA900E5A04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Harrison.StrummerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Strummer;
+			};
+			name = Debug;
+		};
+		22E0448B277CDCA900E5A04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Harrison.StrummerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Strummer;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22E0448D277CDCA900E5A04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Harrison.Strummer-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Strummer WatchKit Extension.appex/Strummer WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		22E0448E277CDCA900E5A04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Harrison.Strummer-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Strummer WatchKit Extension.appex/Strummer WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		22E04490277CDCA900E5A04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Harrison.Strummer-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Strummer WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		22E04491277CDCA900E5A04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Harrison.Strummer-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Strummer WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22E04415277CDCA200E5A04F /* Build configuration list for PBXProject "Strummer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E04479277CDCA900E5A04F /* Debug */,
+				22E0447A277CDCA900E5A04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E0447B277CDCA900E5A04F /* Build configuration list for PBXNativeTarget "Strummer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E0447C277CDCA900E5A04F /* Debug */,
+				22E0447D277CDCA900E5A04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E0447F277CDCA900E5A04F /* Build configuration list for PBXNativeTarget "Strummer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E04480277CDCA900E5A04F /* Debug */,
+				22E04481277CDCA900E5A04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E04483277CDCA900E5A04F /* Build configuration list for PBXNativeTarget "Strummer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E04484277CDCA900E5A04F /* Debug */,
+				22E04485277CDCA900E5A04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E04486277CDCA900E5A04F /* Build configuration list for PBXNativeTarget "StrummerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E04487277CDCA900E5A04F /* Debug */,
+				22E04488277CDCA900E5A04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E04489277CDCA900E5A04F /* Build configuration list for PBXNativeTarget "StrummerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E0448A277CDCA900E5A04F /* Debug */,
+				22E0448B277CDCA900E5A04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E0448C277CDCA900E5A04F /* Build configuration list for PBXNativeTarget "Strummer WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E0448D277CDCA900E5A04F /* Debug */,
+				22E0448E277CDCA900E5A04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E0448F277CDCA900E5A04F /* Build configuration list for PBXNativeTarget "Strummer WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E04490277CDCA900E5A04F /* Debug */,
+				22E04491277CDCA900E5A04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22E04412277CDCA200E5A04F /* Project object */;
+}
